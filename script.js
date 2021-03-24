@@ -34,7 +34,7 @@ function createDOMNodes(page) {
         card.classList.add('card');
         // Link
         const link = document.createElement('a');
-        link.href = result.hdurl;
+        link.href = result.url;
         link.title = 'View Full Image';
         link.target = '_blank';
         // Image
